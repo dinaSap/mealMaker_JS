@@ -53,6 +53,7 @@ addDishToCourse (courseName, dishName, dishPrice) {
 menu.addDishToCourse('mains', 'beef tenderloin', 35);
 menu.addDishToCourse('appetizers', 'ceasar salad', 15);
 menu.addDishToCourse('desserts', 'blueberry cheesecake', 10);
+
 const meal = menu.generateRandomMeal();
 console.log(meal);
 
